@@ -228,3 +228,60 @@
   }
 }
 /* banner end */
+
+/* Filters */
+.filter:not(:first-child) {
+  border-top: 1px solid #868e96;
+}
+
+@media (min-width: 768px) {
+  .filter:not(:first-child) {
+    border-top: 0;
+  }
+
+  .filter:not(:last-child) {
+    border-right: 1px solid #868e96;
+  }
+}
+
+.filter > label:hover {
+  cursor: pointer;
+  background-color: #868e96;
+}
+
+.filter > label {
+  height: 100%;
+  width: 100%;
+}
+
+.filter > input:checked ~ label {
+  background-color: rgb(224, 63, 63);
+  color: #343a40;
+}
+/* Filters end */
+
+/* Cards */
+.card {
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.75);
+  transition: transform 0.2s;
+  border: 0;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.project:nth-child(n + 7) {
+  display: none;
+}
+
+#loadMore {
+  display: block;
+  width: 200px;
+}
+
+.h-250 {
+  height: 250px;
+}
+/* Cards end */
