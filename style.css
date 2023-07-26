@@ -1,0 +1,381 @@
+html {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin-bottom: 0 !important;
+}
+
+main {
+  padding-top: 58px;
+}
+
+/* Colors */
+
+.bg-body-color-light {
+  background-color: #fcebd5;
+}
+
+.bg-color-light {
+  background-color: #edd5bb;
+}
+
+.bg-color-dark {
+  background-color: #a16a5e;
+}
+
+.font-color-dark-brown {
+  color: #a16a5e;
+}
+
+.font-color-light {
+  color: #fcebd5;
+}
+
+/* Fonts */
+
+.reenie-font {
+  font-family: "Reenie Beanie", cursive;
+}
+
+.roboto-font {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Clases */
+
+.page {
+  display: none;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+/* Header */
+header {
+  z-index: 3;
+  background-color: #fcebd5;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.headerName {
+  font-size: 27px;
+  margin-top: 10px;
+  margin-left: -5px;
+}
+
+#headerLogo {
+  width: 84px;
+  margin-bottom: -20px;
+  cursor: pointer;
+}
+
+.auctionIcon {
+  width: 59px;
+  cursor: pointer;
+}
+
+.hamburgerMenu {
+  background-color: transparent;
+  border: none;
+}
+
+.hamburgerMenu i {
+  font-size: 1.3em;
+}
+
+.hamburgerMenuDiv {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  top: -62px;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.25);
+  transition: top 1s ease-in-out;
+}
+
+.hamburgerMenuDiv a {
+  font-size: 1.2em;
+  font-weight: 300;
+}
+
+.hamburgerMenuDiv a:hover {
+  color: white;
+}
+
+.hamburger-active {
+  top: 56px;
+}
+
+.back {
+  font-size: 1.4em;
+  cursor: pointer;
+}
+
+/* Landing Page */
+
+#landingPageLogo {
+  width: 145px;
+}
+
+.landing-page-heading {
+  font-size: 2em;
+}
+
+.menu {
+  width: 260px;
+  height: 392px;
+}
+
+.upper-polygon {
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 30%);
+}
+
+.upper-polygon:hover {
+  position: relative;
+  z-index: 2;
+  transform: scale(1.05);
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.lower-polygon {
+  margin-top: -400px;
+  clip-path: polygon(0 30%, 100% 70%, 100% 100%, 0% 100%);
+  cursor: pointer;
+}
+
+.lower-polygon h2 {
+  position: relative;
+  z-index: 3;
+  padding-top: 300px;
+}
+
+.lower-polygon:hover {
+  position: relative;
+  z-index: 2;
+  transform: scale(1.05);
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+#landingPage select {
+  width: 50%;
+  background-color: transparent;
+  padding: 3px;
+  border: 1px solid #a16a5e;
+  border-radius: 3px;
+  float: right;
+  cursor: pointer;
+}
+
+#landingPage select:disabled {
+  color: #a16a5e;
+}
+
+#landingPage h2 {
+  font-size: 2.1em;
+}
+
+/* Visitor page */
+
+.bricks {
+  background-image: url("./img/Bricks.png");
+  background-position: center;
+}
+
+.find-art-btn {
+  white-space: nowrap;
+  background-color: #a16a5e !important;
+  color: white !important;
+  font-size: 10px !important;
+}
+
+/* Slider */
+.slider-wrapper {
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.slide-track {
+  width: calc(250 * 6);
+  animation: slide 20s linear infinite;
+}
+
+.slide-track:hover {
+  animation-play-state: paused;
+}
+
+.lower-slide {
+  animation: slide-left 20s linear infinite;
+}
+
+.lower-slide:hover {
+  animation-play-state: paused;
+}
+
+.slide-img {
+  width: 250px;
+  height: 150px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  cursor: pointer;
+  perspective: 100px;
+}
+
+.slide img {
+  max-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: transparent;
+  border: none;
+}
+
+.border-right {
+  border-right: 1px solid #a16a5e !important;
+}
+
+.box {
+  background-color: #e09686;
+  color: white;
+  overflow: visible;
+}
+
+.car-text {
+  font-size: 10px;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  background-image: url(./img/prof-photo.webp);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  margin-top: -20px;
+}
+
+.fa-angle-right,
+.fa-angle-left {
+  color: #a16a5e;
+}
+
+/* VisitorListing */
+#visitorListingItems {
+  position: relative;
+  height: 80vh;
+}
+
+.filters-button,
+.filter-button-done {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  width: 50px;
+  height: 50px;
+  background-color: #d54c2e;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.5);
+  border: none;
+  right: 30px;
+  bottom: 30px;
+  z-index: 2;
+}
+
+.filters-button img,
+.filter-button-done img {
+  width: 30px;
+}
+
+#visitorListingItems i {
+  font-size: 1.5em;
+}
+
+.filter-menu {
+  position: fixed;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  z-index: 2;
+  top: 58px;
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+  transition: right 1s ease-in-out;
+}
+
+.filter-menu-active {
+  right: 0;
+}
+
+.filter-menu h5 {
+  font-size: 0.9em;
+}
+
+.filter-menu input {
+  background-color: transparent;
+  border: 1px solid #edd5bb;
+}
+
+.filter-menu input::placeholder {
+  color: #edd5bb;
+}
+
+.filter-menu hr {
+  margin-left: auto;
+  margin-right: auto;
+  border-color: #edd5bb;
+  margin: 35px 0;
+}
+
+.filter-menu select,
+.newItemMenu select {
+  background-color: transparent;
+  width: 130px;
+  padding: 3px;
+  border: 1px solid #edd5bb;
+  color: #edd5bb;
+  border-radius: 3px;
+}
+
+#min-price-input,
+#max-price-input {
+  width: 130px;
+}
+
+.filter-button-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: transparent;
+  color: white;
+  font-size: 1.5em;
+  border: none;
+}
+
+.filter-button-done {
+  z-index: 3;
+}
