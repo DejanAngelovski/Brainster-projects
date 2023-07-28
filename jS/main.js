@@ -15,7 +15,7 @@ headerLogo.addEventListener("click", () => {
   location.hash = "";
   localStorage.removeItem("artistName");
   chooseArtistSelect.value = "Choose";
-  headerName.innerText = "Street ARTists";
+  headerName.innerText = "Street Artists";
   const newItemForm = document.querySelector(".newItemMenu");
   newItemForm.classList.remove("newItemMenuActive");
   hamburgerMenuDiv.classList.remove("hamburger-active");
