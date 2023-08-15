@@ -16,7 +16,7 @@ function initVisitorListingPage() {
 
   const items_LS = JSON.parse(localStorage.getItem("items"))
     ? JSON.parse(localStorage.getItem("items"))
-    : items;
+    : "items";
 
   // Render cards
   visitorListingItemsContainer.innerHTML = "";
@@ -45,7 +45,7 @@ function initVisitorListingPage() {
     doneBtn.style.display = "none";
   });
 
-  // Fill artists select
+  // Artists select
   fetch("https://jsonplaceholder.typicode.com/users")
     .then((res) => res.json())
     .then((data) => {
@@ -55,7 +55,7 @@ function initVisitorListingPage() {
     `;
       });
     });
-  // Fill type select
+  // Type select
   itemTypes.forEach((type) => {
     typeInput.innerHTML += `
         <option value="${type}">${type}</option>
@@ -97,7 +97,7 @@ function initVisitorListingPage() {
       }
     );
 
-    // close filter menu
+    // close filter menu 
     filterMenu.classList.remove("filter-menu-active");
     filterBtn.style.display = "block";
     doneBtn.style.display = "none";

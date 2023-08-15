@@ -19,7 +19,7 @@ function handleAsVisitor() {
   location.hash = "#visitorHomePage";
 }
 
-// Fill choose artist select
+// Artist select
 fetch("https://jsonplaceholder.typicode.com/users")
   .then((res) => res.json())
   .then((data) => {

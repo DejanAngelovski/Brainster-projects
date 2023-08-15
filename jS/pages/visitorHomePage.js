@@ -19,16 +19,16 @@ imagesToRender.forEach((image) => {
 
   if (image.id < 8) {
     upperSlide.innerHTML += `
-                <div class="slide-img">
-                  <img src="${image.image}" alt="${image.title}" />
-                </div>
-            `;
+              <div class="slide-img">
+                <img src="${image.image}" alt="${image.title}" />
+              </div>
+          `;
   } else {
     lowerSlide.innerHTML += `
-                <div class="slide-img">
-                  <img src="${image.image}" alt="${image.title}" />
-                </div>
-            `;
+              <div class="slide-img">
+                <img src="${image.image}" alt="${image.title}" />
+              </div>
+          `;
   }
 });
 
