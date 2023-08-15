@@ -132,7 +132,6 @@ function startTimer() {
       seconds < 10 ? "0" + seconds : seconds
     }`;
 
-    // If the time hits 0
     if (time === 0) {
       clearInterval(timerInterval);
       items_LS[auctioningItemIndex].dateSold = new Date().toJSON();
