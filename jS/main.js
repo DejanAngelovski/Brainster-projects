@@ -19,6 +19,7 @@ headerLogo.addEventListener("click", () => {
   const newItemForm = document.querySelector(".newItemMenu");
   newItemForm.classList.remove("newItemMenuActive");
   hamburgerMenuDiv.classList.remove("hamburger-active");
+  location.reload();
 });
 
 auctionIcon.addEventListener("click", () => {

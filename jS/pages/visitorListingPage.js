@@ -18,51 +18,37 @@ function initVisitorListingPage() {
     ? JSON.parse(localStorage.getItem("items"))
     : items;
 
-  // Render published cards
-  visitorListingItemsContainer.innerHTML = "";
-  const storageItemsToRender = items_LS.filter((item) => item.isPublished);
-  storageItemsToRender.forEach(
-    ({ image, title, description, price, artist }, index) => {
-      renderVisitorCard(index, image, artist, price, title, description);
-    }
-  );
-
-  // Filter buttons events
-  if (filterMenu.classList.contains("filter-menu-active")) {
-    filterMenu.classList.remove("filter-menu-active");
-    filterBtn.style.display = "block";
-  }
-
-  doneBtn.style.display = "none";
-  filterBtn.addEventListener("click", () => {
-    filterMenu.classList.add("filter-menu-active");
-    filterBtn.style.display = "none";
-    doneBtn.style.display = "block";
-  });
-  filterX.addEventListener("click", () => {
-    filterMenu.classList.remove("filter-menu-active");
-    filterBtn.style.display = "block";
-    doneBtn.style.display = "none";
-  });
-
-  // Fill artists select
+  artistInput.innerHTML = "";
   fetch("https://jsonplaceholder.typicode.com/users")
     .then((res) => res.json())
     .then((data) => {
       data.forEach((user) => {
         artistInput.innerHTML += `
         <option value="${user.name}">${user.name}</option>
-    `;
+      `;
       });
     });
-  // Fill type select
+
+  typeInput.innerHTML = "";
   itemTypes.forEach((type) => {
     typeInput.innerHTML += `
-        <option value="${type}">${type}</option>
+      <option value="${type}">${type}</option>
     `;
   });
 
-  // Filter cards
+  // Event listeners for filter buttons
+  filterBtn.addEventListener("click", () => {
+    filterMenu.classList.add("filter-menu-active");
+    filterBtn.style.display = "none";
+    doneBtn.style.display = "block";
+  });
+
+  filterX.addEventListener("click", () => {
+    filterMenu.classList.remove("filter-menu-active");
+    filterBtn.style.display = "block";
+    doneBtn.style.display = "none";
+  });
+
   doneBtn.addEventListener("click", () => {
     filterMenu.classList.remove("filter-menu-active");
 
@@ -75,11 +61,11 @@ function initVisitorListingPage() {
               .includes(itemTitleInput.value.toLowerCase())
           : true) &&
         (artistInput.value ? item.artist === artistInput.value : true) &&
-        (minPriceInput.value.toString()
-          ? item.price > minPriceInput.value
+        (minPriceInput.value !== ""
+          ? item.price > parseFloat(minPriceInput.value)
           : true) &&
-        (maxPriceInput.value.toString()
-          ? item.price < maxPriceInput.value
+        (maxPriceInput.value !== ""
+          ? item.price < parseFloat(maxPriceInput.value)
           : true) &&
         (typeInput.value ? item.type === typeInput.value : true)
     );
@@ -88,20 +74,29 @@ function initVisitorListingPage() {
     filteredItemsToRender.forEach(
       ({ image, title, description, price, artist }, index) => {
         renderVisitorCard(index, image, artist, price, title, description);
-
-        minPriceInput.value = "";
-        maxPriceInput.value = "";
-        itemTitleInput.value = "";
-        typeInput.value = "";
-        artistInput.value = "";
       }
     );
+
+    minPriceInput.value = "";
+    maxPriceInput.value = "";
+    itemTitleInput.value = "";
+    typeInput.value = "";
+    artistInput.value = "";
 
     // close filter menu
     filterMenu.classList.remove("filter-menu-active");
     filterBtn.style.display = "block";
     doneBtn.style.display = "none";
   });
+
+  // Initial rendering of published cards
+  visitorListingItemsContainer.innerHTML = "";
+  const storageItemsToRender = items_LS.filter((item) => item.isPublished);
+  storageItemsToRender.forEach(
+    ({ image, title, description, price, artist }, index) => {
+      renderVisitorCard(index, image, artist, price, title, description);
+    }
+  );
 }
 
 function renderVisitorCard(index, image, artist, price, title, description) {
