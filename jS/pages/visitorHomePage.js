@@ -35,5 +35,4 @@ imagesToRender.forEach((image) => {
 findArtBtn = document.querySelector(".find-art-btn");
 findArtBtn.addEventListener("click", () => {
   location.hash = "#visitorListingPage";
-  location.reload();
 });
