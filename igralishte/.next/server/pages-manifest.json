@@ -3,8 +3,6 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/giftCard": "pages/giftCard.js",
-  "/order/orderForm": "pages/order/orderForm.js",
-  "/searchPage": "pages/searchPage.js",
-  "/shop": "pages/shop.js"
+  "/shop": "pages/shop.js",
+  "/brandPage/[id]": "pages/brandPage/[id].js"
 }
