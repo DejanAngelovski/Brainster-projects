@@ -1,0 +1,751 @@
+{
+  "Igralishteskopje": [
+    {
+      "id": "1",
+      "stock": "low",
+      "date": "2023-05-05",
+      "amount": 1,
+      "name": "Сина јакна Puffy",
+      "price": 2500,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size": "S",
+      "category": "Палта и јакни",
+      "brand": "Factory Girl",
+      "color": "blue",
+      "material": "Памук",
+      "care": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "condition": "10/10",
+      "oznaki": [
+        "Ново",
+        "vintage",
+        "Облека"
+      ],
+      "images": [
+        {
+          "pic1": "/images/blue-jacket.avif"
+        },
+        {
+          "pic2": "/images/blue-jacket2.avif"
+        },
+        {
+          "pic3": "/images/blue-jacket3.avif"
+        }
+      ],
+      "img": "/images/blue-jacket.avif",
+      "isFavorite": false,
+      "isOrdered": false
+    },
+    {
+      "id": "2",
+      "stock": "high",
+      "date": "2023-05-05",
+      "amount": 1,
+      "name": "Црно палто Factory Girl",
+      "price": 1800,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size": "M",
+      "category": "Палта и јакни",
+      "brand": "Factory Girl",
+      "color": "black",
+      "material": "Памук",
+      "care": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "condition": "8/10",
+      "oznaki": [
+        "Ново",
+        "vintage",
+        "Облека"
+      ],
+      "images": [
+        {
+          "pic1": "/images/black-jacket.jpeg"
+        },
+        {
+          "pic2": "/images/black-jacket2.jpeg"
+        },
+        {
+          "pic3": "/images/black-jacket3.jpeg"
+        }
+      ],
+      "img": "/images/black-jacket.jpeg",
+      "isFavorite": false,
+      "isOrdered": false
+    },
+    {
+      "id": "3",
+      "stock": "low",
+      "date": "2023-05-05",
+      "amount": 1,
+      "name": "Бела јакна Main Days",
+      "price": 2000,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size": "S",
+      "category": "Палта и јакни",
+      "brand": "Main Days",
+      "color": "white",
+      "material": "Полиестер",
+      "care": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "condition": "10/10",
+      "oznaki": [
+        "Ново",
+        "vintage",
+        "Облека"
+      ],
+      "images": [
+        {
+          "pic1": "/images/white-jacket.avif"
+        },
+        {
+          "pic2": "/images/white-jacket2.jpeg"
+        },
+        {
+          "pic3": "/images/white-jacket3.avif"
+        }
+      ],
+      "img": "/images/white-jacket.avif",
+      "isFavorite": false,
+      "isOrdered": false
+    },
+    {
+      "id": "4",
+      "stock": "low",
+      "date": "2023-05-20",
+      "amount": 1,
+      "name": "Розеви панталони Main Days",
+      "price": 1500,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size": "М",
+      "category": "Панталони",
+      "brand": "Main Days",
+      "color": "pink",
+      "material": "Ликра",
+      "care": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "condition": "8/10",
+      "oznaki": [
+        "Ново",
+        "vintage",
+        "Облека"
+      ],
+      "images": [
+        {
+          "pic1": "/images/pink-pants.webp"
+        },
+        {
+          "pic2": "/images/pink-pants2.webp"
+        },
+        {
+          "pic3": "/images/pink-pants3.webp"
+        }
+      ],
+      "img": "/images/pink-pants.webp",
+      "isFavorite": false,
+      "isOrdered": false
+    },
+    {
+      "id": "5",
+      "stock": "medium",
+      "date": "2023-05-20",
+      "amount": 1,
+      "name": "Црни фармерки Urma",
+      "price": 900,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size": "М",
+      "category": "Панталони",
+      "brand": "Urma",
+      "color": "black",
+      "material": "Полиестер",
+      "care": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "condition": "7/10",
+      "oznaki": [
+        "Ново",
+        "vintage",
+        "Облека"
+      ],
+      "images": [
+        {
+          "pic1": "/images/black-jeans.webp"
+        },
+        {
+          "pic2": "/images/black-jeans2.jpeg"
+        },
+        {
+          "pic3": "/images/black-jeans3.jpeg"
+        }
+      ],
+      "img": "/images/black-jeans.webp",
+      "isFavorite": false,
+      "isOrdered": false
+    },
+    {
+      "id": "6",
+      "stock": "low",
+      "date": "2023-04-20",
+      "amount": 1,
+      "name": "Виолетов Фустан Urma",
+      "price": 1800,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size": "М",
+      "category": "Фустани",
+      "brand": "Urma",
+      "color": "purple",
+      "material": "Памук",
+      "care": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "condition": "9/10",
+      "oznaki": [
+        "Ново",
+        "vintage",
+        "Облека"
+      ],
+      "images": [
+        {
+          "pic1": "/images/purple-dress.jpeg"
+        },
+        {
+          "pic2": "/images/purple-dress2.jpeg"
+        },
+        {
+          "pic3": "/images/purple-dress3.jpeg"
+        }
+      ],
+      "img": "/images/purple-dress.jpeg",
+      "isFavorite": false,
+      "isOrdered": false
+    },
+    {
+      "id": "7",
+      "stock": "high",
+      "date": "2023-04-20",
+      "amount": 1,
+      "name": "Црн фустан Urma",
+      "price": 1000,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size": "L",
+      "category": "Фустани",
+      "brand": "Urma",
+      "color": "black",
+      "material": "Памук",
+      "care": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "condition": "7/10",
+      "oznaki": [
+        "Ново",
+        "vintage",
+        "Облека"
+      ],
+      "images": [
+        {
+          "pic1": "/images/black-dress.jpeg"
+        },
+        {
+          "pic2": "/images/black-dress2.jpeg"
+        },
+        {
+          "pic3": "/images/black-dress3.jpeg"
+        }
+      ],
+      "img": "/images/black-dress.jpeg",
+      "isFavorite": false,
+      "isOrdered": false
+    },
+    {
+      "id": "8",
+      "stock": "low",
+      "date": "2023-09-20",
+      "amount": 1,
+      "name": "Црвена блуза Candle Nest",
+      "price": 400,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size": "XL",
+      "category": "Блузи",
+      "brand": "Candle Nest",
+      "color": "red",
+      "material": "Памук",
+      "care": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "condition": "10/10",
+      "oznaki": [
+        "Ново",
+        "vintage",
+        "Облека"
+      ],
+      "images": [
+        {
+          "pic1": "/images/red-shirt.jpeg"
+        },
+        {
+          "pic2": "/images/red-shirt2.jpeg"
+        },
+        {
+          "pic3": "/images/red-shirt3.jpeg"
+        }
+      ],
+      "img": "/images/red-shirt.jpeg",
+      "isFavorite": false,
+      "isOrdered": false
+    },
+    {
+      "id": "9",
+      "stock": "low",
+      "date": "2023-09-20",
+      "amount": 1,
+      "name": "Зелена блуза Beyond Green",
+      "price": 350,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size": "XS",
+      "category": "Блузи",
+      "brand": "Beyond Green",
+      "color": "green",
+      "material": "Памук",
+      "care": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "condition": "6/10",
+      "oznaki": [
+        "Ново",
+        "vintage",
+        "Облека"
+      ],
+      "images": [
+        {
+          "pic1": "/images/green-shirt.jpeg"
+        },
+        {
+          "pic2": "/images/green-shirt2.jpeg"
+        },
+        {
+          "pic3": "/images/green-shirt3.jpeg"
+        }
+      ],
+      "img": "/images/green-shirt.jpeg",
+      "isFavorite": false,
+      "isOrdered": false
+    },
+    {
+      "id": "10",
+      "stock": "low",
+      "date": "2023-10-01",
+      "amount": 1,
+      "name": "Розева блуза Pinc PartyWear",
+      "price": 900,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size": "M",
+      "category": "Блузи",
+      "brand": "Pinc PartyWear",
+      "color": "pink",
+      "material": "Полиестер",
+      "care": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "condition": "5/10",
+      "oznaki": [
+        "Ново",
+        "vintage",
+        "Облека"
+      ],
+      "images": [
+        {
+          "pic1": "/images/pink-shirt.jpeg"
+        },
+        {
+          "pic2": "/images/pink-shirt2.jpeg"
+        },
+        {
+          "pic3": "/images/pink-shirt3.jpeg"
+        }
+      ],
+      "img": "/images/pink-shirt.jpeg",
+      "isFavorite": false,
+      "isOrdered": false
+    },
+    {
+      "id": "11",
+      "stock": "low",
+      "date": "2023-10-01",
+      "amount": 1,
+      "name": "Сива блуза Gatta",
+      "price": 500,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size": "S",
+      "category": "Блузи",
+      "brand": "Gatta",
+      "color": "gray",
+      "material": "Памук",
+      "care": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "condition": "8/10",
+      "oznaki": [
+        "Ново",
+        "vintage",
+        "Облека"
+      ],
+      "images": [
+        {
+          "pic1": "/images/gray-shirt.jpeg"
+        },
+        {
+          "pic2": "/images/gray-shirt2.jpeg"
+        },
+        {
+          "pic3": "/images/gray-shirt3.jpeg"
+        }
+      ],
+      "img": "/images/gray-shirt.jpeg",
+      "isFavorite": false,
+      "isOrdered": false
+    },
+    {
+      "id": "12",
+      "stock": "low",
+      "date": "2023-10-10",
+      "amount": 1,
+      "name": "Портокалови шорцеви Fraeil",
+      "price": 1250,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size": "M",
+      "category": "Здолништа",
+      "brand": "Fraeil",
+      "color": "orange",
+      "material": "Полиестер",
+      "care": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "condition": "4/10",
+      "oznaki": [
+        "Ново",
+        "vintage",
+        "Облека"
+      ],
+      "images": [
+        {
+          "pic1": "/images/orange-shorts.jpeg"
+        },
+        {
+          "pic2": "/images/orange-shorts2.jpeg"
+        },
+        {
+          "pic3": "/images/orange-shorts3.jpeg"
+        }
+      ],
+      "img": "/images/orange-shorts.jpeg",
+      "isFavorite": false,
+      "isOrdered": false
+    },
+    {
+      "id": "13",
+      "stock": "low",
+      "date": "2023-10-10",
+      "amount": 1,
+      "name": "Зелени шорцеви Fraeil",
+      "price": 320,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size": "M",
+      "category": "Здолништа",
+      "brand": "Fraeil",
+      "color": "green",
+      "material": "Полиестер",
+      "care": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "condition": "8/10",
+      "oznaki": [
+        "Ново",
+        "vintage",
+        "Облека"
+      ],
+      "images": [
+        {
+          "pic1": "/images/green-shorts.webp"
+        },
+        {
+          "pic2": "/images/green-shorts2.webp"
+        },
+        {
+          "pic3": "/images/green-shorts3.webp"
+        }
+      ],
+      "img": "/images/green-shorts3.webp",
+      "isFavorite": false,
+      "isOrdered": false
+    },
+    {
+      "id": "14",
+      "stock": "low",
+      "date": "2023-10-10",
+      "amount": 1,
+      "name": "Црвена долна облека Gatta",
+      "price": 850,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size": "L",
+      "category": "Долна облека",
+      "brand": "Gatta",
+      "color": "red",
+      "material": "Памук",
+      "care": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "condition": "8/10",
+      "oznaki": [
+        "Ново",
+        "vintage",
+        "Облека"
+      ],
+      "images": [
+        {
+          "pic1": "/images/red-underwear.jpeg"
+        },
+        {
+          "pic2": "/images/red-underwear2.jpeg"
+        },
+        {
+          "pic3": "/images/red-underwear3.jpeg"
+        }
+      ],
+      "img": "/images/red-underwear.jpeg",
+      "isFavorite": false,
+      "isOrdered": false
+    },
+    {
+      "id": "15",
+      "stock": "low",
+      "date": "2023-11-15",
+      "amount": 1,
+      "name": "Зелена долна облека Beyond Green",
+      "price": 750,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size": "XS",
+      "category": "Долна облека",
+      "brand": "Beyond Green",
+      "color": "green",
+      "material": "Памук",
+      "care": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "condition": "8/10",
+      "oznaki": [
+        "Ново",
+        "vintage",
+        "Облека"
+      ],
+      "images": [
+        {
+          "pic1": "/images/green-underwear.jpeg"
+        },
+        {
+          "pic2": "/images/green-underwear.jpeg"
+        },
+        {
+          "pic3": "/images/green-underwear.jpeg"
+        }
+      ],
+      "img": "/images/green-underwear.jpeg",
+      "isFavorite": false,
+      "isOrdered": false
+    },
+    {
+      "id": "16",
+      "stock": "low",
+      "date": "2023-11-15",
+      "amount": 1,
+      "name": "Бела ташна Candle Nest",
+      "price": 2400,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size": "S",
+      "category": "Ташни",
+      "brand": "Candle Nest",
+      "color": "white",
+      "material": "Кожа",
+      "care": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "condition": "8/10",
+      "oznaki": [
+        "Ново",
+        "vintage",
+        "Аксесоари"
+      ],
+      "images": [
+        {
+          "pic1": "/images/white-bag.jpeg"
+        },
+        {
+          "pic2": "/images/white-bag2.jpeg"
+        },
+        {
+          "pic3": "/images/white-bag3.jpeg"
+        }
+      ],
+      "img": "/images/white-bag.jpeg",
+      "isFavorite": false,
+      "isOrdered": false
+    },
+    {
+      "id": "17",
+      "stock": "low",
+      "date": "2023-11-25",
+      "amount": 1,
+      "name": "Фрижидерче за козметика Urma",
+      "price": 3000,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size": "S",
+      "category": "Накит",
+      "brand": "Urma",
+      "color": "black",
+      "material": "Метал",
+      "care": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "condition": "8/10",
+      "oznaki": [
+        "Ново",
+        "vintage",
+        "Аксесоари"
+      ],
+      "images": [
+        {
+          "pic1": "/images/Urma_fridge.png"
+        },
+        {
+          "pic2": "/images/Urma_fridge.png"
+        },
+        {
+          "pic3": "/images/Urma_fridge.png"
+        }
+      ],
+      "img": "/images/Urma_fridge.png",
+      "isFavorite": false,
+      "isOrdered": false
+    },
+    {
+      "id": "18",
+      "stock": "low",
+      "date": "2023-12-01",
+      "amount": 1,
+      "name": "Розева ташна Pinc PartyWear",
+      "price": 2590,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size": "S",
+      "category": "Ташни",
+      "brand": "Pinc PartyWear",
+      "color": "pink",
+      "material": "Полиестер",
+      "care": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "condition": "8/10",
+      "oznaki": [
+        "Ново",
+        "vintage",
+        "Аксесоари"
+      ],
+      "images": [
+        {
+          "pic1": "/images/pink-bag.jpeg"
+        },
+        {
+          "pic2": "/images/pink-bag2.jpeg"
+        },
+        {
+          "pic3": "/images/pink-bag3.jpeg"
+        }
+      ],
+      "img": "/images/pink-bag.jpeg",
+      "isFavorite": false,
+      "isOrdered": false
+    },
+    {
+      "id": "19",
+      "stock": "low",
+      "date": "2023-12-01",
+      "amount": 1,
+      "name": "Прстен Gatta",
+      "price": 700,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size": "S",
+      "category": "Накит",
+      "brand": "Gatta",
+      "color": "gray",
+      "material": "Метал",
+      "care": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "condition": "8/10",
+      "oznaki": [
+        "Ново",
+        "vintage",
+        "Аксесоари"
+      ],
+      "images": [
+        {
+          "pic1": "/images/ring-gatta.jpeg"
+        },
+        {
+          "pic2": "/images/ring-gatta2.jpeg"
+        },
+        {
+          "pic3": "/images/ring-gatta3.jpeg"
+        }
+      ],
+      "img": "/images/ring-gatta.jpeg",
+      "isFavorite": false,
+      "isOrdered": false
+    },
+    {
+      "id": "20",
+      "stock": "low",
+      "date": "2023-12-05",
+      "amount": 1,
+      "name": "Обетки Fraeil",
+      "price": 1800,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size": "S",
+      "category": "Накит",
+      "brand": "Candle Nest",
+      "color": "gray",
+      "material": "Метал",
+      "care": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "condition": "8/10",
+      "oznaki": [
+        "Ново",
+        "vintage",
+        "Аксесоари"
+      ],
+      "images": [
+        {
+          "pic1": "/images/ear-rings.jpeg"
+        },
+        {
+          "pic2": "/images/ear-rings2.jpeg"
+        },
+        {
+          "pic3": "/images/ear-rings3.jpeg"
+        }
+      ],
+      "img": "/images/ear-rings.jpeg",
+      "isFavorite": false,
+      "isOrdered": false
+    }
+  ],
+  "brands": [
+    {
+      "id": "1",
+      "title": "Зш да не",
+      "img": "images/zshdane.png"
+    },
+    {
+      "id": "2",
+      "title": "Pinc PartyWear",
+      "img": "images/pink-shirt2.jpeg"
+    },
+    {
+      "id": "3",
+      "title": "Factory Girl",
+      "img": "images/blue-jacket2.avif"
+    },
+    {
+      "id": "4",
+      "title": "Main Days",
+      "img": "images/white-jacket2.jpeg"
+    },
+    {
+      "id": "5",
+      "title": "Fraeil",
+      "img": "images/orange-shorts2.jpeg"
+    },
+    {
+      "id": "6",
+      "title": "Urma",
+      "img": "images/black-jeans2.jpeg"
+    },
+    {
+      "id": "7",
+      "title": "Candle Nest",
+      "img": "images/red-shirt2.jpeg"
+    },
+    {
+      "id": "8",
+      "title": "Beyond Green",
+      "img": "images/green-shirt2.jpeg"
+    },
+    {
+      "id": "9",
+      "title": "Gatta",
+      "img": "images/gray-shirt2.jpeg"
+    }
+  ]
+}
